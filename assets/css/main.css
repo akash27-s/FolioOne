@@ -2923,9 +2923,3 @@ body {
   z-index: -999;
   background-color: #050b14;
 }
-/* Hide default template form status messages permanently */
-.php-email-form .loading,
-.php-email-form .error-message,
-.php-email-form .sent-message {
-  display: none !important;
-}
