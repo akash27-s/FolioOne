@@ -2923,3 +2923,13 @@ body {
   z-index: -999;
   background-color: #050b14;
 }
+.image-box{
+    width: 240px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 8px;
+    background: linear-gradient(45deg,#00e5ff,#8a2be2);
+    box-shadow: 0 0 25px rgba(0,229,255,.5);
+    overflow: hidden;
+    margin: 0 auto;
+}
