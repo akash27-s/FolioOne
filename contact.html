@@ -7,7 +7,7 @@
   <title>Contact - AKASH S | AI & Data Science Professional</title>
   <meta name="description" content="Get in touch with AKASH S, AI & Data Science professional.">
   <meta name="keywords" content="AKASH S, Contact, AI, Data Science, Portfolio">
-z
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -55,7 +55,7 @@ z
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Certifications</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -125,15 +125,16 @@ z
               <h3>Get In Touch</h3>
               <p>Send me a message and I'll get back to you as soon as possible.</p>
 
-             <form action="https://api.web3forms.com/submit" method="POST" data-aos="fade">
-             <input type="hidden" name="access_key" value="78b8b53d-5944-4b1b-a2d6-5af59285f585">
+              <form action="https://api.web3forms.com/submit" method="POST" data-aos="fade">
+                <input type="hidden" name="access_key" value="78b8b53d-5944-4b1b-a2d6-5af59285f585">
+                
                 <div class="row gy-4">
 
                   <div class="col-md-6">
                     <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                   </div>
 
-                  <div class="col-md-6 ">
+                  <div class="col-md-6">
                     <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
                   </div>
 
@@ -141,11 +142,14 @@ z
                     <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
                   </div>
 
-                 
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                 
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
 
                     <button type="submit" class="btn">Send Message</button>
                   </div>
